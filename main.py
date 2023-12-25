@@ -5,7 +5,7 @@ import cv2
 goose_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Read the input image
-image_path = './images/Amir.jpg'  # Replace with the path to your image
+image_path = './images/front_goose.jpeg'  # Replace with the path to your image
 image = cv2.imread(image_path)
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
